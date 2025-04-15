@@ -136,3 +136,18 @@ Período
 num_alunos 
 data_ínicio 
 data_fim 
+
+
+===========================================================
+
+
+Atributos da matrícula
+
+==========================================================
+
+Cod_Matrícula(PK)
+RA_aluno(FK)
+Cod_Turma(FK)
+Data_Matrícula
+Data_Cancelamento
+Status_Matrícula (ativa, cancelado, trancada...)
