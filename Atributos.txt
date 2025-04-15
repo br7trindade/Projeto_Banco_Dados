@@ -1,0 +1,57 @@
+1.Alunos
+RA_aluno
+Nome_aluno
+Sobrenome_aluno
+Data_nascimento_aluno
+identificaao_genero_aluno
+cpf_aluno
+rg_aluno
+nacionalidade_aluno
+estado_civil_aluno
+naturalidade_aluno
+deficiencia_aluno
+data_ingresso_aluno
+Rua
+Número
+Cidade
+Estado
+CEP
+Telefone_Celular
+Telefone_Residencial
+Telefone_Comercial
+Telefone_Recado
+E-Mail_Pessoal
+E-Mail_Corporativo
+Status_alunos(ativo, formado, trancado etc)
+Nome_Mãe
+Nome_Pai
+
+
+
+=================
+
+Atributos do Professor
+=================
+Cod Professor (PK) - Um Professor só pode pertencer a um departamento
+Nome_Professor
+Sobrenome_Professor 
+Data_nascimento
+Identificação_Gênero
+Data_Contratação
+Tipo_Vinculo(Efetivo, Substituto)
+CPF
+rg_aluno
+TItulação (Graduado, Mestre, Doutor)
+Rua 
+Número 
+Bairro 
+
+
+
+===========================================================
+
+
+ATRIBUTOS DO 
+
+
+=========================================================
