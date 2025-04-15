@@ -45,13 +45,59 @@ TItulação (Graduado, Mestre, Doutor)
 Rua 
 Número 
 Bairro 
-
+Cidade
+Estado
+CEP
+Telefone_Celular
+Telefone_Residencial
+Telefone_Comercial
+Telefone_Recado
+E-Mail_Pessoal
+E-Mail_Corporativo
+Cod_Departamento (Fk) - (Um Professor só pode pertencer a um departamento)
+Status_Professor (Ativo, inativo, Licenciado...)
 
 
 ===========================================================
 
 
-ATRIBUTOS DO 
+ATRIBUTOS DO CURSO
 
 
 =========================================================
+
+Cod_Curso (PK)
+Nome_Curso
+Tipo(Bacharelado, Licenciatura, Tecnólogo)
+Duração_meses
+Cod_Departamento(FK)
+Turno (Matutino, Vespertino)
+Carga_Horário_Total
+Modalidade (Presencial, EAD)
+Cod_Prof_Coordenador (FK)(Que vai coordenar o curso)
+
+
+========================================================
+
+
+Atributos do departamento
+
+=========================================================
+
+
+Cod_Departamento(PK)
+Nome_Departamento
+
+=========================================================
+
+ATRIBUTOS DA DISCIPLINA
+
+=========================================================
+
+Cod_Disciplina(PK)
+Nome_Disciplina
+Pré_Requisitos
+Ementa - (É um resumo do contéudo que será abordado ao longo do curso)
+COd_Departamento (FK)
+Carga_Horário
+COd_Curso(FK)
