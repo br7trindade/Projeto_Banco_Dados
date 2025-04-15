@@ -101,3 +101,38 @@ Ementa - (É um resumo do contéudo que será abordado ao longo do curso)
 COd_Departamento (FK)
 Carga_Horário
 COd_Curso(FK)
+
+
+===================================================
+
+ATRIBUTOS DO HISTORICO
+
+===================================================
+
+Cod_Histórico(PK)
+Cod_Disciplina(FK)
+RA_aluno(FK)
+Ano 
+Semestre 
+Nota 
+Frequência 
+Situação (Aprovado, Reprovado, Trancado)
+
+
+=====================================================
+
+Identificando os atributos - TURMA
+
+=====================================================
+
+COd_Turma(PK) 
+Cod_Curso(FK)
+Sala 
+Ano 
+Semestre 
+Cod_Disciplina(FK)
+Cod_Professor(FK) 
+Período 
+num_alunos 
+data_ínicio 
+data_fim 
