@@ -151,3 +151,9 @@ do Cod_departamento)
 - Cod_Professor (FK) (Chave estrangeira não precisa aplicar a análise. A análise é aplicada nos atributos não chave)
 
 
+Terceira Forma Normal (3FN)
+Uma tabela está na terceira forma normal quando:
+
+1.Está na 2FN.
+2.Não há dependência transitiva entre atributos não-chave e a chave primária.
+3.Todo atributo não-chave depende diretamente da chave primária.

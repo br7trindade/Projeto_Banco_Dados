@@ -151,3 +151,20 @@ Cod_Turma(FK)
 Data_Matrícula
 Data_Cancelamento
 Status_Matrícula (ativa, cancelado, trancada...)
+
+Todos os campos de cada tabela, com seus respectivos tipos e restrições:
+
+tbl_departamento: cod_departamento (PK), nome_departamento
+tbl_endereco: cod_endereco (PK), nome_rua, numero, complemento, bairro, cidade, estado, cep
+tbl_disciplina: cod_disciplina (PK), nome_disciplina, ementa, cod_departamento (FK), carga_horaria_total
+tbl_professor: cod_professor (PK), nome_professor, sobrenome, data_nascimento, identificacao_genero, data_contratacao, tipo_vinculo, cpf, rg, titulacao, cod_endereco (FK), email_pessoal, email_corporativo, status_professor, cod_departamento (FK)
+tbl_telefone_professor: cod_telefone (PK), cod_professor (FK), num_telefone, tipo_telefone
+tbl_curso: cod_curso (PK), nome_curso, tipo, duracao_meses, cod_departamento (FK), turno, carga_horaria_total, modalidade
+tbl_aluno: ra_aluno (PK), nome_aluno, sobrenome_aluno, data_nascimento, identificacao_genero, cpf, rg, nacionalidade, estado_civil, naturalidade, deficiencia, data_ingresso, email_pessoal, email_coorporativo, status_aluno, nome_mae, nome_pai, cod_endereco (FK), cod_curso (FK)
+tbl_telefone_aluno: cod_telefone (PK), ra_aluno (FK), num_telefone, tipo_telefone
+tbl_turma: cod_turma (PK), cod_curso (FK), sala, ano, semestre, cod_disciplina (FK), cod_professor (FK), periodo, numero_alunos, data_inicio, data_fim
+tbl_historico: cod_disciplina (FK), ra_aluno (FK), ano, semestre, nota, frequencia, situacao_historico
+tbl_matricula: cod_matricula (PK), ra_aluno (FK), cod_turma (FK), data_matricula, data_cancelamento, motivo_cancelamento, status_matricula
+tbl_curso_disciplina: cod_curso (FK), cod_disciplina (FK), tipo_disciplina
+tbl_professor_disciplina: cod_professor (FK), cod_disciplina (FK)
+tbl_disciplina_prerequisito: cod_disciplina (FK), cod_prerequisito (FK)

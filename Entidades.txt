@@ -1,0 +1,17 @@
+Entidades
+
+
+1. tbl_departamento
+2. tbl_endereco
+3. tbl_disciplina
+4. tbl_professor
+5. tbl_telefone_professor
+6. tbl_curso
+7. tbl_aluno
+8. tbl_telefone_aluno
+9. tbl_turma
+10. tbl_historico
+11. tbl_matricula
+12. tbl_curso_disciplina
+13. tbl_professor_disciplina
+14. tbl_disciplina_prerequisito

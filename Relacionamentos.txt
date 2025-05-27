@@ -1,0 +1,18 @@
+Relacionamentos
+
+
+Departamento 1:N Curso
+Departamento 1:N Disciplina
+Departamento 1:N Professor
+Curso 1:N Aluno
+Curso 1:N Turma
+Curso N:N Disciplina (tbl_curso_disciplina)
+Disciplina N:N Professor (tbl_professor_disciplina)
+Disciplina N:N Disciplina (tbl_disciplina_prerequisito)
+Aluno 1:N Telefone (tbl_telefone_aluno)
+Professor 1:N Telefone (tbl_telefone_professor)
+Aluno 1:N Histórico (tbl_historico)
+Aluno 1:N Matrícula (tbl_matricula)
+Turma 1:N Matrícula (tbl_matricula)
+Professor 1:N Turma
+Disciplina 1:N Turma
